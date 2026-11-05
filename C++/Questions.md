@@ -1,4 +1,4 @@
-# 💜📚 Efficiency of Algorithms - Assignments Only
+# 💜📚 Efficiency of Algorithms
 
 Focus ON:
 
@@ -23,7 +23,6 @@ A database system uses logarithmic time to quickly locate a record in a sorted l
 3. Using the formula above, calculate the number of steps for **500 records**.
 4. If the number of records is doubled to **1000**, how many additional steps are required? Show your working.
 
-【1-02fa4b】
 
 ---
 
@@ -41,7 +40,6 @@ Questions:
 3. If the system must handle millions of records in real time, which feature would you recommend and why?
 4. Give examples of algorithms used in both Feature A and Feature B.
 
-【1-02fa4b】
 
 ---
 
@@ -66,7 +64,6 @@ c) Explain why this algorithm becomes impractical as **n** increases.
 
 d) Suggest one real-world situation where such an exponential-time algorithm might still be acceptable.
 
-【1-02fa4b】
 
 ---
 
@@ -88,7 +85,6 @@ b) Explain why Bubble Sort is said to be an **in-place sorting algorithm**.
 
 c) State the **space complexity** of Bubble Sort. Explain.
 
-【1-02fa4b】
 
 ---
 
@@ -114,7 +110,6 @@ A = [6, 4, 9, 3, 7]
 
 (2 marks)
 
-【1-02fa4b】
 
 ---
 
@@ -142,7 +137,6 @@ The school decides to use Merge Sort.
    - Recursive stack space
 6. Why might Merge Sort be preferred over Bubble Sort or Insertion Sort for a large number of student records even though it uses more memory?
 
-【1-02fa4b】
 
 ---
 
@@ -183,7 +177,6 @@ Explain the space complexity of Quick Sort by discussing:
 - Auxiliary variables
 - Recursive stack space
 
-【1-02fa4b】
 
 ---
 
@@ -209,7 +202,6 @@ where **i** and **j** represent student numbers from **0 to n−1**.
 
 3. Explain why this algorithm has Quadratic Time Complexity **O(n²)**.
 
-【1-02fa4b】
 
 ---
 
@@ -232,56 +224,15 @@ The network administrator wants to test the system by visiting each computer usi
 1. Using the DFS technique, list the order in which the computers will be visited, starting from node A.
 2. Explain briefly what is meant by **backtracking** in DFS.
 
-【1-02fa4b】
 
 ---
-
-
-
 > 💜 **天道酬勤**
 >
 > *Tiān dào chóu qín*
 >
 > "Heaven rewards hard work."
 
-Source: SLIDE 9 EFFICIENCY OF ALGORITHM.pptx. 【1-02fa4b】
-
 
 ---------
-# 💜📚 Efficiency of Algorithms 
-1. A database system uses logarithmic time to quickly locate a record in a sorted list of user IDs. Assuming the
-database contains 500 records,
-a) Giving an example of the specific algorithm, Explain how this algorithm functions
-b) Write the general formula for the number of steps required by logarithmic time in the worst case.
-c) Using the formula in above calculate the number of steps for 500 records
-d) If the number of records is doubled to 1000, how many additional steps are required? Show your
-working.
-
-2. A software company is developing two features for a data processing system that handles n
-records. Feature A processes the records by scanning each record exactly once while Feature B
-processes the records by repeatedly dividing the data into smaller parts and then combining the
-results.
-a) State the time complexity of feature A and feature Explain.
-b) Between the two features, which one is faster as n becomes very large? Explain your answer
-c) If the system must handle millions of records in real time, which feature would you
-recommend and why?
-d) Give examples of these algorithms in both feature A and B
-
-3. A school is testing the performance of its computer system when handling pairs of students for group
-assignments. Each student must be paired with every other student (including themselves) so that the
-system can display all possible combinations. Assume there are n students in the class.
-a) Write a Java program using two for loops to print all possible pairs of students in the format: i, j where
-i and j represent student numbers from 0 to n-1.
-b) If n = 5, write down how many times the inner print statement will execute.
-c) Explain why this algorithm has Quadratic Time Complexity O(n²).
-
-4. A cybersecurity system uses a brute-force algorithm to crack a password. The algorithm tries all possible
-combinations, and for every additional character added to the password, the number of possible combinations
-doubles. Assumeing that when the algorithm performs 1 step per password combination, the number of steps grows
-as 2ⁿ, where n is the password length
-a) Write the time complexity of this algorithm.
-b) Calculate the number of steps required when:
-i) n = 5
-ii) n = 10
-c) Explain why this algorithm becomes impractical as n increases.
-d) Suggest one real-world situation where such an exponential-time algorithm might still be acceptable
+# Reference
+SLIDE 9 EFFICIENCY OF ALGORITHM.pptx
